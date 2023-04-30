@@ -6,9 +6,10 @@ APIs:
 -curl localhost:8090/rewards?months=3 -API for reward points for all customers for a given number of months, e.g., for past 3 months in this case  
 -curl localhost:8090/rewards/14?months=3 -API for reward points for a customer for a given number of months, e.g., customer 14 and 3 months  
 response JSON:  
-{ "customerId": 14,  
-  "//Comment": "CustomerId Not returned for reward points for All customers API"  
-  "rewardPoints": 0  
+{   
+  "customerId": 14,  
+        "//Comment": "CustomerId Not returned for reward points for All customers API"  
+    "rewardPoints": 0  
 }  
 
 Aditional customer and customertransaction APIs are written but were not necessary.  
