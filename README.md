@@ -1,4 +1,5 @@
-API is written from rewards application stand point.
+API is written from rewards application stand point  
+
 DB Schema contains Customer and CustomerTransaction. Customer table was added to be realistic and complete, but not needed in current API requirements.
 H2 database used with some initial data.
 
